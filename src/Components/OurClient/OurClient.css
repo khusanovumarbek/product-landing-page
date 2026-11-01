@@ -1,0 +1,58 @@
+.Ourclient{
+    margin-top: 170px;
+}
+.Ourclient h1{
+    color: var(--black-color);
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+.googls{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+    flex-wrap: wrap;
+}
+.gogls1, .gogls2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+}
+.googls img{
+    width: 10rem;
+    transition: 0.5s ease;
+}
+.googls img:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+@media screen and (max-width: 899px) {
+    .gogls2{
+        margin-top: 60px;
+    }
+    .googls img{
+        width: 12rem;
+    }
+}
+@media screen and (max-width: 630px) {
+    .gogls1,.gogls2{
+        column-gap: 50px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .gogls1,.gogls2{
+        column-gap: 40px;
+    }
+    .googls img{
+        width: 10rem;
+    }
+}
+@media screen and (max-width: 380px) {
+    .googls img{
+        width: 8rem;
+    }
+}

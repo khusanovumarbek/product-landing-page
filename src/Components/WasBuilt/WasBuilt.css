@@ -1,0 +1,89 @@
+.Wasbuild{
+    margin-top: 114px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(../../img/BackgPassOq.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+.dark .Wasbuild{
+    background: url(../../img/BackgPassQora.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+.prwas{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    color: var(--black-color);
+}
+.Wasbuild h1{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 48px;
+    color: var(--black-color);
+}
+.vector{
+    margin: 40px auto;
+    animation: vec linear;
+    animation-timeline: view();
+    animation-range: entry;
+}
+@keyframes vec {
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.Wasbuild .vector h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+.Wasbuild .vector p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.Wasbuild button{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 175px;
+    height: 53px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background: #02897A;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    transition: 0.5s ease;
+}
+.Wasbuild button:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+    box-shadow: 0px 10px 10px rgba(107, 107, 107, 0.589);
+}
+@media screen and (max-width: 800px) {
+    .vector{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}

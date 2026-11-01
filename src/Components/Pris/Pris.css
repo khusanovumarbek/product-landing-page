@@ -1,0 +1,64 @@
+.Pris{
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--black-color);
+}
+.Pris h1{
+    text-align: center;
+}
+.prs{
+    margin-top: 56px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Pris .img img{
+    width: 29rem;
+    height: 24.5rem;
+}
+.prs .univer{
+    display: flex;
+    align-items: center;
+    width: 222px;
+    column-gap: 14px;
+}
+.prs  .univer img{
+    width: 50px;
+    height: 50px;
+}
+
+.prs .text .ptext p{
+    margin-top: 15px;
+}
+.uni{
+    margin-top: 32px;
+}
+@media screen and (max-width: 1225px) {
+    .text, .img{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .Pris .img img{
+        width: 24rem;
+        height: 20rem;
+    }
+}
+@media screen and (max-width: 430px) {
+    .Pris .img img{
+        width: 20rem;
+        height: 18rem;
+    }
+}
+@media screen and (max-width: 370px) {
+    .Pris .img img{
+        width: 18rem;
+        height: 16rem;
+    }
+}

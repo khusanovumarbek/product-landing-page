@@ -1,0 +1,26 @@
+.Latest{
+    margin-top: 70px;
+}
+.lat{
+    text-align: center;
+    color: var(--black-color);
+    
+}
+.More{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    column-gap: 10px;
+}
+.More a{
+    color: var(--black-color);
+    text-decoration: none;
+}
+.Lcont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

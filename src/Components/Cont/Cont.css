@@ -1,0 +1,73 @@
+.Cont{
+    margin-top: 150px;
+    width: 100%;
+}
+.sliderr{
+    width: 100%;
+}
+.swiper-slide{
+    margin-top: 20px;
+    border-radius: 8px;
+    transition: 0.5s ease;
+    background: white;
+    height: 350px;
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid rgba(175, 175, 175, 0.589);
+}
+.swiper-slide:hover h3{
+    color: #02897A;
+}
+.swiper-slide img{
+    width: 100%;
+}
+.sliderr .swiper-slide p{
+    margin-top: 1.5rem;
+}
+.sliderr .swiper-slide p span{
+    font-weight: 700;
+}
+.sliderr .swiper-slide p, h3{
+    padding-left: 25px;
+}
+.sliderr .swiper-slide h3{
+    margin-top: 0.9rem;
+    font-size: 1.5rem;
+    line-height: 40px;
+    font-weight: 700;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 90%;
+}
+.sliderr h1{
+    font-size: 34px;
+    font-weight: 700;
+}
+.sliderr p{
+    font-size: 16px;
+    font-weight: 500;
+}
+ .sliderr{
+    margin-top: 40px;
+    width: 100%;
+ }
+.swiper{
+    padding-bottom: 100px;
+}
+.Content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Content >h1{
+    font-weight: 700;
+    font-size: 2.1rem;
+    color: var(--black-color);
+}
+.Content >p{
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--black-color);
+}

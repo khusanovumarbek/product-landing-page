@@ -1,0 +1,47 @@
+.WhyChoos{
+    margin-top: 100px;
+    width: 100%;
+    background: var(--de-color);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.WhyChoos h1{
+    color: var(--black-color);
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+.whychs{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    color: var(--black-color);
+}
+.whychs .vector{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    width: 320px;
+    border: 1px solid #DEDEDE;
+    cursor: pointer;
+}
+.whychs .vector img{
+    margin-top: 32px;
+}
+.WhyChoos .vector h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+.WhyChoos .vector p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px;
+}

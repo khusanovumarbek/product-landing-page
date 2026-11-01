@@ -1,0 +1,168 @@
+.MadeW{
+    margin-top: 150px;
+    width: 100%;
+    color: var(--black-color);
+}
+.Gmadew{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.MadeW h1{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.MadeW  .bld{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.MadeW .gprf{
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.MadeW .ginp{
+    margin-top: 24px;
+    width: 90%;
+    height: 4.1rem;
+    border: 1px solid #EAEAEA;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.MadeW .gprof{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.MadeW .gprf span{
+    color: #02897A;
+}
+.MadeW .ginp input{
+    background: none;
+    outline: none;
+    border: none;
+    width: 70%;
+    margin-left: 10px;
+    color: var(--black-color);
+}
+.MadeW .ginp input::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--black-color);
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 90%;
+}
+.MadeW .ginp button{
+    width: 117px;
+    height: 50px;
+    outline: none;
+    border: none;
+    color: white;
+    background: #02897A;
+    border-radius: 100px;
+}
+.MadeW .Gmadew > img{
+    width: 33.8rem;
+    height: 30rem;
+    transition: 0.5s ease;
+    animation: gimg 0.7s linear;
+}
+@keyframes gimg {
+    from{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.MadeW .Gmadew > img:hover{
+    transform: scale(1.1) translateY(-40px);
+    transition: 0.7s ease;
+    filter: drop-shadow(30px 20px 20px black);
+}
+.MadeW .gimg2{
+    display: none;
+}
+.Gmadew .text{
+    animation: ttt 0.7s linear;
+}
+@keyframes ttt {
+    from{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 1300px) {
+    @keyframes ttt {
+        from{
+            transform: translateY(100px);
+            opacity: 0;
+        }
+        to{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    @keyframes gimg {
+        from{
+            transform: translateY(100px);
+            opacity: 0;
+        }
+        to{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+}   
+@media screen and (max-width: 1100px){
+    .MadeW .Gmadew .text{
+        margin: 0 auto;
+    }
+    .MadeW .Gmadew{
+        flex-direction: column;
+    }
+    .MadeW .Gmadew > .gimg1{
+        display: none;
+    }
+    .MadeW .Gmadew > .gimg2{
+        margin: 90px auto;
+        display: block;
+    }
+}
+@media screen and (max-width: 600px) {
+    .MadeW .Gmadew > img{
+        width: 25rem;
+        height: 25rem;
+    }
+}
+@media screen and (max-width: 530px) {
+    .MadeW .Gmadew > img{
+        width: 23rem;
+        height: 22rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .MadeW .Gmadew > img{
+        width: 19rem;
+        height: 17rem;
+    }
+}
+@media screen and (max-width: 430px) {
+    .MadeW .ginp{
+        width: 280px;
+    }
+}

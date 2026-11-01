@@ -1,0 +1,30 @@
+.ContUs{
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: var(--black-color);
+}
+.ContUs h1{
+    font-weight: 700;
+    font-size: 2.1rem;
+}
+.ContUs p{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.ContUs .ficon img{
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+}
+.iframe{
+    margin-top: 60px;
+    border-radius: 10px;
+    width: 60%;
+    height: 23rem;
+}

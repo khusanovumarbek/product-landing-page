@@ -1,0 +1,132 @@
+.Custo{
+    margin-top: 146px;
+    width: 100%;
+    height: auto;
+    color: var(--black-color);
+}
+.cst{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Custo .three_div{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.Custo h4{
+    font-weight: 600;
+    font-size: 1rem;
+}
+.Custo h2{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.ptichka{
+    width: 35px;
+    height: 35px;
+}
+.Custo .text{
+    animation: txet 0.7s linear;
+    animation-timeline: view();
+    animation-range: entry;
+}
+@keyframes txet {
+    from{
+        opacity: 0;
+        transform: translateX(70px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.Custo .img img{
+    width: 100%;
+    height: 100%;
+    animation: ilgg linear;
+    animation-timeline: view();
+    animation-range: entry;
+}
+.Custo .img{
+    width: 33.9rem;
+    height: 31.2rem;
+}
+@keyframes ilgg {
+    from{
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.Custo .text > p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.Custo .ptichka{
+    width: 35px;
+    height: 35px;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.pt1{
+    background: #FF9900;
+}
+.pt2{
+    background: #F03E3D;
+}
+.pt3{
+    background: #4D8DFF;
+}
+
+@media screen and (max-width: 1040px) {
+.Custo .img{
+        order: 1;
+    }
+    .Custo .text{
+        order: 2;
+        margin-top: 50px;
+    }
+    .cst{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 600px) {
+    .Custo .img{
+        width: 21rem;
+        height: 19rem;
+    }
+    .Custo .text p{
+        font-size: 0.9rem;
+    }
+    .Custo .text h1{
+        margin-top: 10px;
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .Custo .img{
+        width: 21rem;
+        height: 19rem;
+    }
+    .Custo .text p{
+        font-size: 0.8rem;
+    }
+}

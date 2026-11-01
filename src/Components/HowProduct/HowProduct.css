@@ -1,0 +1,166 @@
+.HowPr{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--black-color);
+}
+.HowPr button{
+    margin-top: 80px;
+    width: 224px;
+    height: 44px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #02897A;
+    text-align: center;
+    transition: 0.5s ease;
+}
+.HowPr button a{
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+
+}
+.HowPr button:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+    box-shadow: 0px 10px 10px rgba(107, 107, 107, 0.589);
+}
+.Hwr{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.HowPr .macb1, .macb2, .macb3{
+    margin: 100px auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.HowPr img{
+    width: 31rem;
+    height: 17rem;
+}
+.HowPr .macb1 h4, .macb2 h4, .macb3 h4{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.HowPr .macb1 h2, .macb2 h2, .macb3 h2{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.HowPr .macb1 p, .macb2 p, .macb3 p{
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+@media screen and (max-width: 1104px) {
+    .HowPr .macb1, .macb2, .macb3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 40px auto;
+    }
+    .HowPr img{
+        margin: 0 auto;
+        order: 1;
+    }
+    .step{
+        order: 2;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .HowPr img{
+        width: 26rem;
+        height: 14rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .HowPr img{
+        width: 23rem;
+        height: 14rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .HowPr img{
+        width: 20rem;
+        height: 10rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .HowPr img{
+        width: 17rem;
+        height: 8rem;
+    }
+}
+.HowPr img{
+    animation: hwr linear;
+    animation-timeline: view();
+    animation-range: entry;
+}
+@keyframes hwr {
+    from{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.HowPr .step{
+    animation: stp linear;
+    animation-timeline: view();
+    animation-range: entry;
+}
+@keyframes stp {
+    from{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.HowPr .step2{
+    animation: stp2 linear;
+    animation-timeline: view();
+    animation-range: entry;
+}
+@keyframes stp2 {
+    from{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.HowPr .img2{
+    animation: hw2 linear;
+    animation-timeline: view();
+    animation-range: entry;
+}
+@keyframes hw2 {
+    from{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
